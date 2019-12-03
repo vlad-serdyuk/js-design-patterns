@@ -8,10 +8,12 @@ class Bmw {
 
 class BmwFactory {
 	create(type) {
-		if (type === 'X5')
+		if (type === 'X5') {
 			return new Bmw(type, 4.0, 'black');
-		if (type === 'X6')
+		}
+		if (type === 'X6') {
 			return new Bmw(type, 4.5, 'white');
+		}
 	}
 }
 
