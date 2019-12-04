@@ -1,24 +1,36 @@
-class Bmw {
-  constructor(model, engine, color) {
-    this.model = model;
-    this.engine = engine;
-    this.color = color;
+class WebDialog {
+  render() {
+    return 'this is web dialog';
   }
 }
 
-class BmwFactory {
-  create(type) {
-    if (type === 'X5') {
-      return new Bmw(type, 4.0, 'black');
-    }
-    if (type === 'X6') {
-      return new Bmw(type, 4.5, 'white');
+class iOSDialog {
+  render() {
+    return 'this is iOS dialog';
+  }
+}
+
+class AndroidDialog {
+  render() {
+    return 'this is android dialog';
+  }
+}
+
+class DialogFactory {
+  create(platform) {
+    if (platform === 'iOS') {
+      return new iOSDialog();
+    } else if (platform === 'android') {
+      return new AndroidDialog();
+    } else if (platform === 'web') {
+      return new WebDialog();
     }
   }
 }
 
+// usage
+const factory = new DialogFactory();
 
-const factory = new BmwFactory();
+const webDialog = factory.create('web');
 
-const x5 = factory.create('X5');
-const x6 = factory.create('X6');
+webDialog.render();

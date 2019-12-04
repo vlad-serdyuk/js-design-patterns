@@ -1,4 +1,4 @@
-# JavaScript Design patterns
+# Javascript Design Patterns
 
 This repository contains JavaScript based examples of many
 popular design patterns.
@@ -22,3 +22,5 @@ the data.
 
 * `Creational` [Singleton](src/singleton)
 * `Creational` [Factory Method](src/factory-method)
+* `Creational` [Abstract Factory](src/abstract-factory)
+* `Creational` [Prototype](src/prototype)
