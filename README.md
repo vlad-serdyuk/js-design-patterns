@@ -22,5 +22,4 @@ only and it is **not** meant to be used for production.*
 * `Creational` [Abstract Factory](src/abstract-factory)
 * `Creational` [Prototype](src/prototype)
 * `Creational` [Builder](src/builder)
-
 * `Structural` [Decorator](src/decorator)
