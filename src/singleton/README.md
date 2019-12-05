@@ -18,3 +18,7 @@ All implementations of the Singleton have this step in common:
 
 ## Example
 A perfect real-life example would be that of mongoose (the famous Node.js ODM library for MongoDB). It utilizes the singleton pattern.
+
+## References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
