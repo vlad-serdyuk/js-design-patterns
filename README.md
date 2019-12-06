@@ -17,10 +17,11 @@ only and it is **not** meant to be used for production.*
 `Creational` / `Structural` / `Behavioral`
 
 * **Creational**
-  * `Creational` [Singleton](src/singleton)
-  * `Creational` [Factory Method](src/factory-method)
-  * `Creational` [Abstract Factory](src/abstract-factory)
-  * `Creational` [Prototype](src/prototype)
-  * `Creational` [Builder](src/builder)
+  * [Singleton](src/singleton)
+  * [Factory Method](src/factory-method)
+  * [Abstract Factory](src/abstract-factory)
+  * [Prototype](src/prototype)
+  * [Builder](src/builder)
 * **Structural**
-  * `Structural` [Decorator](src/decorator)
+  * [Decorator](src/decorator)
+  * [Facade](src/facade)
