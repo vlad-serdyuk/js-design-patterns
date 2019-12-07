@@ -25,3 +25,6 @@ only and it is **not** meant to be used for production.*
 * **Structural**
   * [Decorator](src/decorator)
   * [Facade](src/facade)
+  * [Proxy](src/proxy)
+  * [Adapter](src/adapter)
+  * [Composite](src/composite)
