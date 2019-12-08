@@ -7,8 +7,7 @@ Each pattern has its own separate README
 with related explanations and links for further reading.
 
 
-*☝ Note that this project is meant to be used for learning and researching purposes 
-only and it is **not** meant to be used for production.*
+*☝ Note that this project is meant to be used for learning and researching purposes.*
 
 ## Design patterns
 
@@ -28,3 +27,7 @@ only and it is **not** meant to be used for production.*
   * [Proxy](src/proxy)
   * [Adapter](src/adapter)
   * [Composite](src/composite)
+  * [Bridge](src/bridge)
+  * [Flyweight](src/flyweight)
+* **Behavioral**
+  * [Mediator](src/mediator)
