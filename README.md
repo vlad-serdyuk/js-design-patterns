@@ -32,3 +32,4 @@ with related explanations and links for further reading.
 * **Behavioral**
   * [Mediator](src/mediator)
   * [Iterator](src/iterator)
+  * [Chain of responsibility](src/chain-of-responsibility)
