@@ -31,3 +31,4 @@ with related explanations and links for further reading.
   * [Flyweight](src/flyweight)
 * **Behavioral**
   * [Mediator](src/mediator)
+  * [Iterator](src/iterator)
