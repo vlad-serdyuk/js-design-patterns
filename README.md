@@ -33,3 +33,5 @@ with related explanations and links for further reading.
   * [Mediator](src/mediator)
   * [Iterator](src/iterator)
   * [Chain of responsibility](src/chain-of-responsibility)
+  * [Strategy](src/strategy)
+  * [Memento](src/memento)
