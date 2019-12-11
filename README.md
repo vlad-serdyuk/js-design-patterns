@@ -35,3 +35,8 @@ with related explanations and links for further reading.
   * [Chain of responsibility](src/chain-of-responsibility)
   * [Strategy](src/strategy)
   * [Memento](src/memento)
+  * [Template method](src/template-method)
+  * [Visitor](src/visitor)
+  * [Command](src/command)
+  * [Observer](src/observer)
+  * [State](src/state)
